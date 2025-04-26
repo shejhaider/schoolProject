@@ -20,6 +20,9 @@ public class Student {
     @OneToMany(mappedBy = "student", cascade = CascadeType.ALL)
     private List<Enrollment> enrollments;
 
+    public Student(Object o, String alice, String smith, String mail, LocalDate of) {
+    }
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

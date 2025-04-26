@@ -19,6 +19,14 @@ public class SchoolService {
 
     public Student saveStudent(Student student) {
         return studentRepo.save(student);
+
+
+    }
+    public Student updateStudent(Student student) {
+        return studentRepo.save(student);
+    }
+    public void deleteStudent(Student student) {
+         studentRepo.delete(student);
     }
 
     public Page<Student> getAllStudents(Pageable pageable) {
@@ -27,6 +35,14 @@ public class SchoolService {
 
     public Course saveCourse(Course course) {
         return courseRepo.save(course);
+    }
+
+    public Course updateCourse(Course course) {
+        return courseRepo.save(course);
+    }
+
+    public void deleteCourse(Course course) {
+         courseRepo.delete(course);
     }
 
     public Page<Course> getAllCourses(Pageable pageable) {

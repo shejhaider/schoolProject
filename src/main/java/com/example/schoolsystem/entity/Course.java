@@ -18,6 +18,9 @@ public class Course {
     @OneToMany(mappedBy = "course", cascade = CascadeType.ALL)
     private List<Enrollment> enrollments;
 
+    public Course(Object o, String mathematics, String math101, String basicMath) {
+    }
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

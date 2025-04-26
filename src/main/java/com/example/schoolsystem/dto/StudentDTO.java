@@ -8,4 +8,7 @@ public class StudentDTO {
     public String lastName;
     public String email;
     public LocalDate dateOfBirth;
+
+    public StudentDTO(Object o, String alice, String smith, String mail, LocalDate of) {
+    }
 }

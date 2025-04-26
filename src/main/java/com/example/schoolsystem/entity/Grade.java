@@ -15,6 +15,13 @@ public class Grade {
     @NotBlank private String grade;
     private LocalDate gradedAt;
 
+    public Grade(Long id, Long id1, String a) {
+    }
+
+    public Grade() {
+
+    }
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

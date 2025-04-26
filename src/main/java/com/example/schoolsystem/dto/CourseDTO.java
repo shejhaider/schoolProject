@@ -5,4 +5,7 @@ public class CourseDTO {
     public String name;
     public String code;
     public String description;
+
+    public CourseDTO(Object o, String mathematics, String math101, String basicMath) {
+    }
 }
